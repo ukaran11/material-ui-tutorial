@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import { Avatar, makeStyles } from '@material-ui/core';
 import Drawer from '@material-ui/core/Drawer';
 import { Typography } from '@material-ui/core';
 import  List  from '@material-ui/core/List';
@@ -40,6 +40,9 @@ const useStyles = makeStyles((theme) => {
         toolbar: theme.mixins.toolbar,
         date: {
             flexGrow: 1
+        },
+        avatar: {
+            marginLeft: theme.spacing(2),
         }
     }
 })
@@ -71,6 +74,7 @@ export default function Layout({ children }) {
                     <Typography>
                         Mario
                     </Typography>
+                    <Avatar src="/mario-av.png" className={classes.avatar}/>
                 </Toolbar>
             </AppBar>
             <Drawer

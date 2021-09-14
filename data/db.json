@@ -17,6 +17,18 @@
       "details": "birthday",
       "category": "reminders",
       "id": 4
+    },
+    {
+      "title": "work",
+      "details": "work",
+      "category": "work",
+      "id": 5
+    },
+    {
+      "title": "pay the milkman",
+      "details": "pay",
+      "category": "money",
+      "id": 6
     }
   ]
 }
